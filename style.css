@@ -60,14 +60,50 @@ p{
 }
 
 section{
-    height: 500px;
+    height: 600px;
     padding-bottom: 200px;
 }
 
 .last-section{
+    padding-top: 500px;
+    padding-left: 60px;
     background-image: url("images/footer-bg.png");
     background-repeat: no-repeat;
     text-align: center;
 }
 
+#full-time{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+    background-color: rgb(207, 19, 224);
+}
 
+section{
+    height: 600px;
+    padding-bottom: 200px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 30px;
+} 
+
+#leftbox { 
+    float:left;  
+    background:white; 
+    width:33.33%; 
+    height:100%; 
+} 
+#middlebox{ 
+    float:left;  
+    background: white; 
+    width: 33.33%; 
+    height: 100%; 
+} 
+#rightbox{ 
+    float:right; 
+    background: white; 
+    width:33.33%; 
+    height:100%; 
+}
