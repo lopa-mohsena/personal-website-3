@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+    font-family: 'Pangolin', cursive;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    columns: dimgray;
+    font-size: medium;
+}
+
+.top-banner{
+
+    padding-top: 200px;
+    padding-left: 60px;
+    text-align: justify;
+   background-image: url("images/header-bg.png");
+   background-repeat: no-repeat;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2px;
+}
+.half-width img{
+    width: 100%;
+}
+
+.orange-highlight{
+    color: rgb(243, 66, 234);
+
+}
+
+.dream-big{
+    padding-top: 1000px;
+     padding-right:  300px;
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(lightsalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: 700px;
+}
+
+.experience-area{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    
+}
+
+section{
+    height: 500px;
+    padding-bottom: 200px;
+}
+
+.last-section{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+
